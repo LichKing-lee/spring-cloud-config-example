@@ -9,4 +9,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: ["env", "refresh"]
+        include: ["env", "refresh", "configprops"]
