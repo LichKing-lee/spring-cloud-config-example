@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: config-example
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "env"
